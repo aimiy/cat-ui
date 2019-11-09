@@ -1,5 +1,5 @@
 # cat-ui
-测试一下gitlens
+
 ## Project setup
 ```
 npm install
