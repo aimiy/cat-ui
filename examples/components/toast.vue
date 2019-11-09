@@ -9,7 +9,7 @@
 </template>
 
 <script>
-import { Toast } from "../../packages/index.js";
+// import { Toast } from "../../packages/index.js";
 
 export default {
   name: "HelloWorld",
