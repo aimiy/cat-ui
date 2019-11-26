@@ -11,6 +11,7 @@
     <cat-cell title="cell" @click="goto('Cell')"></cat-cell>
     <cat-cell title="header" @click="goto('Header')"></cat-cell>
     <cat-cell title="radio" @click="goto('Radio')"></cat-cell>
+    <cat-cell title="input" @click="goto('Input')"></cat-cell>
   </div>
 </template>
 

@@ -4,6 +4,7 @@ import foldList from './foldList'
 import Cell from './cell'
 import Header from './header'
 import Radio from './radio'
+import Input from './input'
 import "./assets/fonts/style.css"
 
 const components = [
@@ -11,7 +12,8 @@ const components = [
     foldList,
     Cell,
     Header,
-    Radio
+    Radio,
+    Input
 ];
 
 
@@ -34,7 +36,9 @@ export {
     Button,
     foldList,
     Cell,
-    Header
+    Header,
+    Radio,
+    Input
 };
 // 全局引用安装install
 export default{

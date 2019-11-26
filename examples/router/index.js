@@ -8,6 +8,7 @@ const Toast = () => import("../components/toast.vue")
 const Cell = () => import("../components/cell.vue")
 const Header = () => import("../components/header.vue")
 const Radio = () => import("../components/radio.vue")
+const Input = () => import("../components/input.vue")
 
 const routes = [
     { path: '/', component: Index },
@@ -16,6 +17,7 @@ const routes = [
     { path:'/Cell',component:Cell},
     { path:'/Header',component:Header},
     { path:'/Radio',component:Radio},
+    { path:'/Input',component:Input},
 ];
 
 const router = new VueRouter({
