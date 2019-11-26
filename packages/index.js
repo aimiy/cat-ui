@@ -3,13 +3,15 @@ import Button from './button';
 import foldList from './foldList'
 import Cell from './cell'
 import Header from './header'
+import Radio from './radio'
 import "./assets/fonts/style.css"
 
 const components = [
     Button,
     foldList,
     Cell,
-    Header
+    Header,
+    Radio
 ];
 
 
