@@ -1,6 +1,6 @@
 module.exports = {
-    devServer:{
-        port:8888
+    devServer: {
+        port: 8888
     },
     pages: {
         index: {
@@ -8,5 +8,8 @@ module.exports = {
             template: 'public/index.html',
             filename: 'index.html'
         }
+    },
+    configureWebpack: {
+        devtool: 'source-map'
     }
 }
