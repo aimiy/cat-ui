@@ -3,7 +3,7 @@ import { RouterLink, RouterView } from 'vue-router'
 </script>
 
 <template>
-  <cat-button></cat-button>
+  <cat-button>按钮</cat-button>
   
 </template>
 

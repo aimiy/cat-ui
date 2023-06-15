@@ -10,7 +10,7 @@
     </button>
   </template>
   <style lang="less" scoped>
-  @import "../../assets/style.less";
+  @import "../assets/style.less";
   
   .cat-button {
     appearance: none;
